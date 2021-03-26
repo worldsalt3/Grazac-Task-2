@@ -75,6 +75,7 @@ input[type='submit'] {
     border: none;
     font-weight: bold;
     margin-top: 50px;
+    cursor: pointer;
 }
 
 a {
