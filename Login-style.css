@@ -18,29 +18,75 @@ body {
 
 .login-body {
     margin-top: 20px;
-    width: 650px;
-    height: 500px;
+    width: 600px;
+    height: 550px;
     background-color: white;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 30px;
 }
 
 .login-body div {
     text-align: center;
+    line-height: 5px;
+    font-weight: bold;
+}
+
+.login-body h1 {
+    font-size: 30px;
+}
+
+.login-body p {
+    font-size: 14px;
 }
 
 .form {
+    padding-top: 10px;
     margin-top: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 20px auto;
-    width: 500px;
+    width: 370px;
     height: 300px;
-    border: 1px solid black;
+}
+
+.form p {
+    text-align: center;
+}
+
+.form a {
+    text-align: end;
 }
 
 input {
+    padding: 14px 10px;
     margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(223, 217, 217);
+}
+
+input[type='submit'] {
+    color: rgb(255, 123, 0);
+    background-color: rgba(255, 72, 0, 0.281);
+    border: none;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+a {
+    color: rgb(224, 6, 6);
+}
+
+.form p a {
+    color: rgb(241, 21, 21);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form p {
+    margin-top: -10px;
 }
